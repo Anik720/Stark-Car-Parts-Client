@@ -8,11 +8,11 @@ const Footer = () => {
       id='footer '>
       <div className='mt-5 '>
         <p className=' text-light'>Copyright &copy; Golam Kibria Anik</p>
-        <p className=' text-light'>
+        <p className=' text-light flex items-center justify-center'>
           <i
-            class='fas fa-car-side'
+            class='fas fa-car-side mr-2'
             style={{ fontSize: '48px', color: 'red' }}></i>
-          Car Heaven
+          Stark car parts
         </p>
       </div>
       <div className='mt-5 '>
