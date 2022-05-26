@@ -81,7 +81,9 @@ const Blogs = () => {
           <div className='flex items-center'>
             <ul>
               <h1 className='text-xl font-bold'>
-                How will you improve the performance of a React Application?
+                Why you do not set the state directly in React. For example, if
+                you have const [products, setProducts] = useState([]). Why you
+                do not set products = [...] instead, you use the setProducts
               </h1>
               One should never update the state directly because of the
               following reasons: If you update it directly, calling the
