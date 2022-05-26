@@ -83,13 +83,17 @@ const Blogs = () => {
               <h1 className='text-xl font-bold'>
                 How will you improve the performance of a React Application?
               </h1>
-              <li>Use React.Fragment to Avoid Adding Extra Nodes to the DOM</li>
-              <li>Use Production Build</li>
-              <li>
-                Use React.Suspense and React.Lazy for Lazy Loading Components
-              </li>
-              <li>Use React.memo for Component Memoization</li>
-              <li>Virtualize a Large List Using react-window</li>
+              One should never update the state directly because of the
+              following reasons: If you update it directly, calling the
+              setState() afterward may just replace the update you made. When
+              you directly update the state, it does not change this.state
+              immediately. Instead, it creates a pending state transition, and
+              accessing it after calling this method will only return the
+              present value. You will lose control of the state across all
+              components. Note: Out of all the react questions, this is one that
+              actually helps the interviewer to judge your level of
+              understanding in this subject. Read the answer carefully to
+              understand it properly.
             </ul>
           </div>
         </div>
