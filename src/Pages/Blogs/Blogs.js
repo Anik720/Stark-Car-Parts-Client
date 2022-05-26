@@ -58,13 +58,13 @@ const Blogs = () => {
               <h1 className='text-xl font-bold'>
                 How will you improve the performance of a React Application?
               </h1>
-              <li>Use React.Fragment to Avoid Adding Extra Nodes to the DOM</li>
-              <li>Use Production Build</li>
-              <li>
-                Use React.Suspense and React.Lazy for Lazy Loading Components
-              </li>
-              <li>Use React.memo for Component Memoization</li>
-              <li>Virtualize a Large List Using react-window</li>
+              <p>
+                The Prototypal Inheritance is a feature in javascript used to
+                add methods and properties in objects. It is a method by which
+                an object can inherit the properties and methods of another
+                object. Traditionally, in order to get and set the [[Prototype]]
+                of an object, we use Object. getPrototypeOf and Object
+              </p>
             </ul>
           </div>
         </div>

@@ -53,9 +53,6 @@ const Dashboard = () => {
             {admin && (
               <>
                 <li>
-                  <Link to='/dashboard/users'>All Users</Link>
-                </li>
-                <li>
                   <Link to='/dashboard/users'>Make Admin</Link>
                 </li>
                 <li>
