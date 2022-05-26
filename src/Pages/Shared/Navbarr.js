@@ -20,42 +20,6 @@ const Navbarr = () => {
   };
   return (
     <div>
-      {/* <div class='navbar bg-base-100'>
-        <div class='flex-1'>
-          <Link to='/'>Home</Link>
-          <Link to='/blogs' className='pl-10'>
-            Blogs
-          </Link>
-        </div>
-
-        <div class='flex-none'>
-          <ul class='menu menu-horizontal p-0'>
-            <li>
-              {user ? (
-                <button class='btn text-white' onClick={logout}>
-                  Log Out
-                </button>
-              ) : (
-                <Link to='/login'>
-                  <button class='btn'>Login</button>
-                </Link>
-              )}
-            </li>
-
-            <li>{user && <h6>{user.displayName}</h6>}</li>
-            <li>
-              {user && (
-                <Link to='/dashboard'>
-                  <h6>Dashboard</h6>
-                </Link>
-              )}
-            </li>
-          </ul>
-        </div>
-      </div> */}
-
-      {/*  */}
-
       <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 bg-black mb-3 text-white'>
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
