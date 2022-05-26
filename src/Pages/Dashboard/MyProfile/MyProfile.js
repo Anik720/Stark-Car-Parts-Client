@@ -130,9 +130,6 @@ const MyProfile = () => {
               {' '}
               <button>Update Profile</button>
             </Link>
-            {/*  */}
-
-            {/*  */}
           </div>
         </form>
       </div>
