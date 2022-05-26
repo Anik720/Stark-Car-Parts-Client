@@ -155,11 +155,15 @@ const Purchase = () => {
               )}
             </label>
 
-            <input
+            {/* <input
               type='submit'
               className='btn btn-primary'
               disabled={active}
-            />
+              
+            /> */}
+            <button type='submit' className='btn btn-black' disabled={active}>
+              Purchase
+            </button>
           </form>
           <label htmlFor=''>Increase or decrease quantity</label>
         </div>
