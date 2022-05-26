@@ -144,10 +144,6 @@ const MyOrders = () => {
             </tr>
           </tfoot>
         </table>
-
-        {/* modal */}
-
-        {/*  */}
       </div>
     </div>
   );
