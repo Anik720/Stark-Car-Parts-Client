@@ -102,11 +102,6 @@ const Manageproduct = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <button
-                    class='btn btn-xs'
-                    onClick={() => handleDelete(tool._id)}>
-                    Delete
-                  </button> */}
                 </td>
               </tr>
             ))}
