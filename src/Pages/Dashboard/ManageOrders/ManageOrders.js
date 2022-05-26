@@ -32,9 +32,6 @@ const ManageOrders = () => {
       .then((data) => {
         console.log('Success:', data);
         refetch();
-        // const statuss = document.getElementById('status');
-        // console.log(statuss);
-        // statuss.innerText = 'Shipped';
       })
       .catch((error) => {
         console.error('Error:', error);
