@@ -8,7 +8,7 @@ const Footer = () => {
       id='footer '>
       <div className='mt-5 '>
         <p className=' text-light'>Copyright &copy; Golam Kibria Anik</p>
-        <p className=' text-light flex items-center justify-center'>
+        <p className=' text-light flex items-center justify-center mt-5'>
           <i
             class='fas fa-car-side mr-2'
             style={{ fontSize: '48px', color: 'red' }}></i>
